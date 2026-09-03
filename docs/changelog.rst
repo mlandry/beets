@@ -118,6 +118,8 @@ Bug fixes
   ``tarfile.TarFile`` lost its ``ZipFileCompat`` interface in Python 3 and
   ``py7zr.SevenZipFile`` exposes ``list()`` rather than ``infolist()``.
   :bug:`5664`
+- :doc:`plugins/limit` Deprecate the ``limit`` plugin in favor of the new ``-l``
+  / ``--limit`` flag for the :ref:`list-cmd` command.
 
 ..
     For plugin developers
